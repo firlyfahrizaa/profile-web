@@ -1,0 +1,29 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 56px; 
+}
+
+#hero {
+ 
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/web/header.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    min-height: calc(100vh - 56px); 
+    color: white;
+}
+
+section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in-out;
+}
+
+section[id] {
+  scroll-margin-top: 10px;
+}
